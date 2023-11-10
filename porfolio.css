@@ -1,0 +1,76 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:linear-gradient(#5A7DC2,#b0f1ff);
+
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 25em;
+
+}
+.infoheader h1{
+    margin-left: -13em;
+    margin-top: 1em;
+    text-align:left;
+    line-height:normal;
+}
+.instagram{
+    height: 49px;
+    margin-left: 35em;
+    margin-top: 1em;
+}
+.instagram:hover{
+    -webkit-transform: scale(1.3);transform: scale(1.3);
+}
+.instagram:hover{
+    overflow: auto;
+}
+.facebook{
+    height: 49px;
+    margin-left: 25em;
+    margin-top: 5em;
+}
+.facebook:hover{
+    -webkit-transform: scale(1.3);transform: scale(1.3);
+}
+.facebook:hover{
+    overflow: auto;
+}
+.telefono{
+    height: 49px;
+    margin-left: 45em;
+    margin-top: 2em;
+}
+.row{
+    margin-top: -9em;
+    margin-left: 4em;
+}
+.telefono:hover{
+    -webkit-transform: scale(1.3);transform: scale(1.3);
+}
+.telefono:hover{
+    overflow: auto;
+}
+li{
+    list-style:none;
+}
+.foto img{
+    width: 15em;
+    margin-top: -25em;
+    margin-left: 8em;
+    box-shadow: 5px 8px 12px black;
+
+}
+.contenedor h3{
+    font-size: 1em;
+    margin-top: 13em;
+    margin-left: -23em;
+    margin-right: 28em ;
+    color:bisque;
+    text-transform: capitalize; 
+    text-align: center;
+}

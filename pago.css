@@ -1,0 +1,41 @@
+
+body{
+    height: 100%;
+    max-height: 90%;
+    background-image: url(fondopre.jpg);opacity: 25em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.pag{
+    width: 55em;    
+    background:white;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+  
+}
+.pag h1{
+    font-size: 35px;
+    color: steelblue;
+    margin-left: 8em;
+}
+
+.pag h2{
+    margin-left: 11em;
+    font-size:  25px;
+}
+
+.log img{
+    height: 16em;
+    margin-top: 5em;
+}
+.logo img{
+    height: 15em;
+    margin-top: -16em;
+    margin-left: 26em;
+    display: flex;
+    position: relative;
+}

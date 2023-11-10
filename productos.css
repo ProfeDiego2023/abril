@@ -1,0 +1,90 @@
+*{    
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;  
+    list-style: none;  
+}
+
+body{
+    background-color: brown;
+}
+
+.textit{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: flex;
+}
+
+.textit h1{
+    left: 35em;
+    top:1em;
+    float: left;
+    display: flex;
+    position: relative;
+    color: white;
+}
+
+.impr img{
+    width: 55em;
+    height: 45em;
+    margin-top: 5em;
+    margin-left: 20em;
+}
+
+.tex{
+    margin-left: 25em;
+    margin-top: -25em;
+    font-size: 22px;
+}
+.pre{
+    margin-left: 55em;
+    margin-top: -19em;
+    font-size: 22px;
+}
+
+.im{
+    width: 13em;
+    height: 13em;
+    margin-top: -35em;
+    margin-left: 5em;
+    display: flex;
+    position: relative;
+}
+
+.disco{
+    width: 10em;
+    height: 10em;
+    margin-top: 20em;
+    margin-left: 105em;
+    display: flex;
+    position: relative;
+}
+
+.filtro{
+    width: 10em;
+    height: 10em;
+    margin-top: -23em;
+    margin-left: 13em;
+    display: flex;
+    position: relative;
+}
+
+.freno{
+    width: 10em;
+    height: 10em;
+    margin-top: 10em;
+    margin-left: 5em;
+    display: flex;
+    position: relative;
+}
+
+.aceite{
+    width: 10em;
+    height: 10em;
+    margin-top: -48em;
+    margin-left: 95em;
+    display: flex;
+    position: relative;
+}
+
