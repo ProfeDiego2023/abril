@@ -1,0 +1,330 @@
+@media (min-width:1000px) and (max-width: 1800px) {
+    /* IMAGEN DE FONDO DEL HEADER */
+.FondoHeader img{ 
+    position:absolute;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;     
+    margin: 0;    
+    opacity: 0.6;
+}
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cornflowerblue; 
+}
+.navegador{
+    background-color: #242628;
+    display: flex;
+    justify-content: space-between;
+}
+.navegador .logomecanico img{
+    height: 100px;
+}
+.navegador .links{
+    display: inline;
+}
+.navegador .links li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 10%;
+    display: inline-flex;
+}
+.navegador .links ul li a{
+    display: flex;
+    position:relative;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: -20%;
+
+}
+.navegador .links ul li a:hover{
+    transform: scale(1.2);
+}
+
+/* IMAGEN DE FONDO DEL HEADER */
+.FondoHeader img{ 
+    position:absolute;
+    width: 100%;
+    height: 35em; 
+    overflow: hidden;     
+    margin: 0;    
+    opacity: 0.6;
+}
+
+/* TALLER MECANICO MyM */
+.TallerMecanico h1{
+    display: flex;
+    position: relative;    
+    top: 1em;   
+    justify-content: center;
+    border-bottom: 3px solid #000;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    color:black;
+    font-size: 6em;
+    text-transform: capitalize;  
+    text-align: center;
+}
+/* BIENVENIDO A NUESTRO TALLER */
+.Bienvenido{
+    display: flex;
+    position: relative;
+    top: 10em;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    position: relative;
+    color: black;
+    font-size: 3em;  
+    text-align: center;
+}
+/* BOTON VER MAS */
+.VerMas a{
+    display: flex;
+    position: relative;
+    top: 12em;
+    justify-content: center;
+}
+.VerMas a{
+    display: flex;
+    position: relative;
+    color: #FFF;  
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.5.s;
+    background-color: #ca3a32;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 45%;
+    margin-right: 45%; 
+}
+.VerMas a:hover{
+    transform: scale(1.05);
+    cursor: hand;  
+}
+
+
+/*TEXTO*/
+.TextodelBody1 h3{    
+    line-height: 2em;
+    margin: 10px;
+    width: auto;   
+    margin-top: 30em;
+    margin-left: 20%;
+    justify-content: center;
+}
+
+.body1{
+    margin-left: -52%;
+    margin-right: 1%;
+    display: flex;
+    position: relative;
+    padding: 1px;
+    padding-right: 0%;
+    line-height: 2em;      
+    font-size: 2em;
+    color: brown; 
+    justify-content: center;
+}
+
+.textonuesstroservicio p{
+    line-height: 2em;   
+    text-align: justify;
+    margin: 10px;
+    width: auto;    
+    font-size: 1.2em;  
+    margin-top: 1em;
+    margin-left: 10%;
+    justify-content: center;
+}
+
+.imag-presen img{
+    width: 25%;
+    margin-left: 60%;
+    margin-top: -18%;
+    display: flex;
+    position: relative;
+    
+}
+
+/*TEXTO PRESENTACION*/
+.TextodelBody2 h5{
+    color: white;
+    background-color: brown;
+    font-size: 2em;  
+    text-align: center;  
+    left: 8em; 
+    margin-top: 7em;
+
+   
+}
+.TextodelBody2 h6{
+    line-height: 2em;
+    text-align: justify;    
+    margin: 10px;
+    top:1em;
+    width: auto;   
+    text-align: center;  
+    font-size: 2em;
+    margin-top: 1%;
+    margin-left: -2%;
+    justify-content: center;
+}
+
+
+
+
+/*CUADRICULA DE FT*/
+.conta .imagen{
+    width: 20%;
+    height: 20%;
+   
+}
+.conta{
+    margin-left: 27%;
+
+}
+.container2 .imagen{
+    width: 20%;
+    height: 20%;                                                                                       
+}
+.container2{
+    margin-left: 27%;
+}
+
+/*TEXTO ATEN. Y CAL.*/
+.TextodelBody3 h3{
+    line-height: 2em;
+    text-align: justify;    
+    margin: 10px;
+    width: auto;   
+    text-align: center;  
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 2em;
+    justify-content: center;
+}
+
+.TextodelBody3 h3:hover{
+    transform: scale(1.9);
+}
+.textoservicio p{
+    display: flex;
+    position: relative;
+    line-height: -1em;
+    text-align: justify;    
+    margin: 10%;
+    width: auto;   
+    text-align: center;  
+    margin-top: 1%;
+    margin-left: 8%;
+    font-size: 1.4em;
+    justify-content: center;
+}
+
+footer{
+    background-color: #242628;
+    padding: 30px 25px;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15em;
+}
+.footer-links{
+    width: 25%;
+    padding: 0 10px;
+}
+.footer-links h4{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #00c3ff;
+    padding-bottom: 10px;
+    margin-left: 15%;
+    display:inline-block;
+    
+}
+.footer-links li{
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+    margin-right: 1em;
+    margin-left: 15%;
+    list-style: none;
+}
+.footer-links a{
+   color: #bbbbbb; 
+   text-decoration: none;
+}
+.footer-links ul li a:hover{
+    color: #ffffff;
+    padding-left: 6px;
+}
+
+@media(max-width:991px){
+    .footer-row{
+        text-align: center;
+    }
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+.meta-link-wrapper{
+    margin-left: -2%;
+}
+
+.meta-link-wrapper p{
+    margin-left: 1%;
+    margin-top: -5%;
+    z-index: -1;
+}
+
+.politica a{
+    margin-left: 1%;
+    justify-content: center;
+   
+}
+.politica li{
+    list-style: none;
+   text-decoration: none;
+   justify-content: center;
+}
+
+.elementor-button-wrapper a{
+    margin-left: 1%;
+    margin-top: 2%;  
+}
+
+.text h2{
+    margin-left: 80%;
+    margin-top: -7%;
+    z-index: 1;
+    color:#00c3ff;
+    justify-content: center;
+}
+
+.lista{
+    color:#00c3ff;
+    margin-left: 85%;
+    list-style: none;
+    justify-content: center;
+}
